@@ -61,5 +61,5 @@ jobs:
       # 8. Build and Push Docker Image
       - name: Build and Push Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/sale:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/sale:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/sale_data:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/sale_data:latest
